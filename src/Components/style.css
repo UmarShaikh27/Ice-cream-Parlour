@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.mainHead{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F4BFDB;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    padding: 0 20px;
+    font-weight: 500;
+    transition: all 0.3s;
+    
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+.Heroarea{
+    background-image: url("../images/heroimg.webp");
+    background-image:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../images/heroimg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.heroHeading{
+    color: #B27092;
+    font-size: 80px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: #F4BFDB;
+    color: white;
+    height: 200px;
+    border: 1px solid black;
+    
+
+}
+.alignDiv{
+    display: flex;
+}
